@@ -1,0 +1,341 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+<nav class="navbar">
+
+  <div class="logo">
+    Piyush <span>Edits</span>
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-behance"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <!-- 🍔 HAMBURGER ADD HERE -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</nav>
+<!--==========================
+PORTFOLIO HERO
+===========================-->
+
+<section class="portfolio-hero">
+
+    <div class="portfolio-hero-content">
+
+        <span>MY PORTFOLIO</span>
+
+        <h1>Creative Edits That Tell a Story</h1>
+
+        <p>
+            Explore a collection of my best work featuring cinematic edits,
+            sports posters, wedding retouching, creative manipulation and
+            social media designs.
+        </p>
+
+    </div>
+
+</section>
+
+<!--==========================
+PORTFOLIO GALLERY
+===========================-->
+
+<section class="portfolio-gallery">
+
+    <div class="gallery-grid">
+
+        <div class="gallery-card">
+
+            <img src="sport.jpg" alt="Sports Edit">
+
+            <div class="gallery-overlay">
+
+                <span>Sports Edit</span>
+
+                <h3>Dynamic Athlete Poster</h3>
+
+                <a href="sport.jpg" target="_blank" class="gallery-btn">
+                    View Full Image
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="gallery-card">
+
+            <img src="magic.jpg" alt="Photo Manipulation">
+
+            <div class="gallery-overlay">
+
+                <span>Manipulation</span>
+
+                <h3>Cinematic Artwork</h3>
+
+                <a href="magic.jpg" target="_blank" class="gallery-btn">
+                    View Full Image
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="gallery-card">
+
+            <img src="wed.jpg" alt="Wedding Edit">
+
+            <div class="gallery-overlay">
+
+                <span>Wedding</span>
+
+                <h3>Premium Wedding Retouch</h3>
+
+                <a href="wed.jpg" target="_blank" class="gallery-btn">
+                    View Full Image
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--==========================
+IMAGE LIGHTBOX
+===========================-->
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img id="lightbox-img" src="" alt="">
+
+</div>
+
+<!--==========================
+PORTFOLIO CTA
+===========================-->
+
+<section class="portfolio-cta">
+
+    <div class="portfolio-cta-content">
+
+        <span>LET'S WORK TOGETHER</span>
+
+        <h2>Like What You See?</h2>
+
+        <p>
+            Every project is crafted with creativity, precision, and attention to detail.
+            If you're looking for premium photo editing that stands out, let's create
+            something amazing together.
+        </p>
+
+        <div class="portfolio-cta-buttons">
+
+            <a href="contact.html" class="btn">
+                Hire Me
+            </a>
+
+            <a href="services.html" class="btn btn-outline">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 🌫️ OVERLAY (NAVBAR KE BAAD) -->
+<div class="overlay" id="overlay"></div>
+
+<!-- <section class="portfolio">
+
+    <div class="portfolio-box">
+<p class="portfolio-tag">
+    ✨ PREMIUM PORTFOLIO
+</p>
+    <h1>My Portfolio</h1>
+
+    <p>Explore my best photo editing projects and creative transformations.</p>
+
+<div class="categories">
+
+    <button class="active" data-filter="all">All</button>
+
+    <button data-filter="sports">Sports</button>
+
+    <button data-filter="wedding">Wedding</button>
+
+    <button data-filter="model">Model</button>
+
+    <button data-filter="cinematic">Cinematic</button>
+
+    <button data-filter="retouch">Retouch</button>
+
+</div>
+    <div class="gallery">
+
+   <div class="card sports">
+
+    <img src="sport.jpg"
+     alt="Sports Edit"
+
+     data-title="Sports Edit"
+
+     data-category="Sports"
+
+     data-description="Professional sports editing with cinematic lighting and premium color grading.">
+
+    <div class="overlay">
+
+        <span class="badge">Sports</span>
+
+        <h3>Sports Edit</h3>
+
+        <a href="#" class="view-btn">
+            <i class="fa-solid fa-eye"></i>
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+       <div class="card wedding">
+
+    <img src="wed.jpg"
+     alt="Wedding Edit"
+
+     data-title="Wedding Edit"
+
+     data-category="Wedding"
+
+     data-description="Luxury wedding editing with elegant tones and skin retouching.">
+
+    <div class="overlay">
+
+        <span class="badge">Wedding</span>
+
+        <h3>Wedding Edit</h3>
+
+        <a href="#" class="view-btn">
+            <i class="fa-solid fa-eye"></i>
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card model ">
+
+   <img src="model.jpg"
+     alt="Model Shoot"
+
+     data-title="Model Shoot"
+
+     data-category="Model"
+
+     data-description="Professional fashion retouching with premium skin tones and color grading.">
+
+    <div class="overlay">
+
+        <span class="badge">Model</span>
+
+        <h3>Model Shoot</h3>
+
+        <a href="#" class="view-btn">
+            <i class="fa-solid fa-eye"></i>
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+        <div class="card cinematic">
+            <div class="placeholder"></div>
+            <h3>Cinematic Edit</h3>
+        </div>
+
+        <div class="card retouch ">
+            <div class="placeholder"></div>
+            <h3>Creative Manipulation</h3>
+        </div>
+
+        <div class="card retouch">
+            <div class="placeholder"></div>
+            <h3>Photo Retouching</h3>
+        </div>
+
+    </div>
+</div>
+
+</section> -->
+<!-- ================= PREMIUM LIGHTBOX ================= -->
+
+<div class="lightbox">
+
+    <span class="close-lightbox">
+        <i class="fa-solid fa-xmark"></i>
+    </span>
+
+    <span class="prev">
+        <i class="fa-solid fa-chevron-left"></i>
+    </span>
+
+    <span class="next">
+        <i class="fa-solid fa-chevron-right"></i>
+    </span>
+
+    <div class="lightbox-content">
+
+        <img src="" id="lightbox-img">
+
+        <div class="lightbox-info">
+
+            <span id="lightbox-category">
+                Sports
+            </span>
+
+            <h2 id="lightbox-title">
+                Project Title
+            </h2>
+
+            <p id="lightbox-description">
+
+                High-end professional photo editing with
+                premium color grading, skin retouching,
+                cinematic lighting and realistic enhancement.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+    </body>
+</html>
